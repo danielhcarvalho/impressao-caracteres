@@ -2,8 +2,8 @@ def imprimir_caractere():
     caractere = input('Digite um caractere para realizar a repetição:\n')
 
     for i in range(1, 3):
-        for j in range(1, 9):
-            for l in range(1, pow(2, j - 1)):
+        for j in range(0, 8):
+            for l in range(1, pow(2, j)):
                 print(caractere, end='')
             print()
 
